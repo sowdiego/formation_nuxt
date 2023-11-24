@@ -16,6 +16,11 @@ export default {
     ]
   },
 
+  generate: {
+    fallback: true,
+    dir: 'dist'
+  },
+
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
   ],
