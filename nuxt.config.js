@@ -17,8 +17,9 @@ export default {
   },
 
   generate: {
+    dir: '/dist',
     fallback: true,
-    dir: 'dist'
+    subFolders: true,
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
